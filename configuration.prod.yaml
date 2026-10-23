@@ -1,0 +1,56 @@
+apimServiceName: prod-apim-cicd
+
+namedValues:
+
+policies:
+  - name: policy
+    properties:
+      format: rawxml
+
+loggers:
+
+diagnostics:
+
+gateways:
+  - name: gatewayName1
+    properties:
+      locationData:
+        name: "gateway location"
+
+backends:
+
+versionSets:
+  - name: versionSetName1
+    properties:
+      displayName: "My Version Set"
+
+groups:
+  - name: groupName1
+    properties:
+      displayName: "My Group"
+
+subscriptions:
+  - name: subscriptionName1
+    properties:
+      displayName: "My Subscription"
+
+products:
+  - name: productName1
+    properties:
+      displayName: "My Product"
+
+
+apis:
+
+
+tags:
+  - name: tagName1
+    properties:
+      displayName: "Tag 1"
+
+
+policyFragments:
+  - name: policyFragment1
+    properties:
+      description: "Policy fragment description"
+
